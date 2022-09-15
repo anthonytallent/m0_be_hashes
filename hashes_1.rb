@@ -1,159 +1,3 @@
-# PART 1
-# p "PART 1:"
-
-# p "Hello World".upcase
-# p "Hello World".capitalize
-
-# p "=================="
-
-# p 14.odd?
-# p 14.to_s
-
-# p "=================="
-
-# p [1, 2, 3].clear
-# p [1, 2, 3].sum
-
-# p "=================="
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# PART 2
-# p "."
-# p "PART 2:"
-
-# new_string = "Hello World"
-# p new_string.upcase
-# p new_string.capitalize
-
-# p "=================="
-
-# num = 14
-# p num.odd?
-# p num.to_s
-
-# p "=================="
-
-# new_arr = [1, 2, 3]
-# p new_arr.clear
-# p new_arr.sum
-
-# p "=================="
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# PART 3
-# p "."
-# p "PART 3:"
-
-# new_string = "Hello World"
-# num = 14
-# new_arr = [1, 2, 3]
-# friends = ["Sam", "Jeff", "Amy"]
-
-# p new_string.upcase
-# p new_string.capitalize
-# p num.odd?
-# p num.to_s
-# p friends.clear
-# p new_arr.sum
-
-
-# def greet_an_animal(animal)
-#  p "Hey there, #{animal}! What's goin' down?"
-# end
-
-# greet_an_animal("dog")
-
-
-# def greeting(greet)
-#   p "Hey, how you doing?"
-# end
-
-# greeting("greet")
-
-# def custom_greeting(name)
-#   p "Hey what's up, #{name}? Always a pleasure to see your face!"
-# end
-
-# custom_greeting("King Lorenzo XII")
-# custom_greeting("Jared")
-# custom_greeting("Morgan")
-
-# def square(num)
-#   p num * num
-# end
-
-# square(4)
-# square(20)
-# square(7)
-# square(9)
-
-
-# def greet_person(name1, name2, name3)
-#   p "Hello, #{name1} #{name2} #{name3}. We have been trying to reach you about your car's extended warranty."
-# end
-
-# greet_person("Sarah", "Renee", "Stewart")
-# greet_person("Rachel", "Angela", "Wattson")
-
-
-# foods = {
-#   "apples" => 23,
-#   "grapes" => 507,
-#   "eggs"=> 48
-# }
-
-
-# p foods.keys
-
-# email = {
-#   "username" => "abc@gmail.com",
-#   "subject" => "favorite hobby",
-#   "reciever1" => "efg@gmail.com",
-#   "reciever2" => "123@gmail.com",
-#   "reciever3" => "456@gmail.com"
-# }
-
-# p email
-
-# # Write code that prints all of the 'keys' of the email hash
-# # you created above:
-
-# p email.keys
-
-# # Write code that prints all of the 'values' of the email hash
-# # you created above:
-
-#  p email. values
-
-
 
 
 #Activity:
@@ -191,7 +35,6 @@ p foods["grapes"]
 
 p foods["bananas"] = 4
 
-
 #-------------------
 # Part 2: Email
 #-------------------
@@ -199,6 +42,9 @@ p foods["bananas"] = 4
 
 # Think about all the pieces of information associated with one single email in your inbox.
 # It has a sender, a subject, ...
+
+# Declare a variable that stores hash. Each key should be an attribute of an email and each
+# value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 email = {
   "username" => "abc@gmail.com",
@@ -208,30 +54,18 @@ email = {
   "reciever3" => "456@gmail.com"
 }
 
-# Declare a variable that stores hash. Each key should be an attribute of an email and each
-# value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-
-# Write code that prints your email hash to the terminal.
-
-email = {
-  "username" => "abc@gmail.com",
-  "subject" => "favorite hobby",
-  "reciever1" => "efg@gmail.com",
-  "reciever2" =>"123@gmail.com",
-  "reciever3" => "456@gmail.com"
-}
-
 p email
 
-# Write code that prints all of the 'keys' of the email hash
-# you created above:
+# # Write code that prints all of the 'keys' of the email hash
+# # you created above:
 
 p email.keys
 
-# Write code that prints all of the 'values' of the email hash
-# you created above:
+# # Write code that prints all of the 'values' of the email hash
+# # you created above:
 
  p email. values
+
 
 
 #-------------------
